@@ -501,20 +501,23 @@ h3 {
 
 .repair {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* margin-right: 30px; */
 
 }
 
-.decoration {
+.decoration, .decoration2, .decoration3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 392px;
     flex-wrap: wrap;
+    margin-right: 30px;
 }
+/* !!!!!!! last-child */
 
-.redecorating {
+.redecorating, .overhaul, .designer {
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     font-family: 'Yeseva One', cursive;
@@ -546,83 +549,7 @@ h3 {
     margin: 13px 29px 49px 34px;
 }
 
-.rectangle900 {
-    text-transform: uppercase;
-    background: #E3B873;
-    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-    width: 228px;
-    height: 54px;
-    font-family: 'Yeseva One', cursive;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
-    margin-top: -26px;
-    margin-left: 31px;
-}
-
-/* Parts2 */
-
-.decoration2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 392px;
-    flex-wrap: wrap;
-}
-
-.overhaul {
-    background: #FFFFFF;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-    font-family: 'Yeseva One', cursive;
-    font-size: 18px;
-    line-height: 25px;
-    color: #363636;
-    width: 330px;
-    height: 286px;
-    margin-top: -128px;
-    margin-left: 31px;
-}
-
-.rectangle1800 {
-    text-transform: uppercase;
-    background: #E3B873;
-    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-    width: 228px;
-    height: 54px;
-    font-family: 'Yeseva One', cursive;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
-    margin-top: -26px;
-    margin-left: 31px;
-}
-
-/* Parts3 */
-
-.decoration3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 392px;
-    flex-wrap: wrap;
-}
-
-.designer {
-    background: #FFFFFF;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-    font-family: 'Yeseva One', cursive;
-    font-size: 18px;
-    line-height: 25px;
-    color: #363636;
-    width: 330px;
-    height: 286px;
-    margin-top: -128px;
-    margin-left: 31px;
-}
-
-.rectangle4000 {
+.rectangle900, .rectangle1800, .rectangle4000 {
     text-transform: uppercase;
     background: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
@@ -649,6 +576,5 @@ h3 {
     padding: 17px;
 }
 
-/* Parts4 */
 
 
