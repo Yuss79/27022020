@@ -69,6 +69,8 @@
     margin: 0 auto;
 }
 
+/* section1 */
+
 .picture-one {
     background-image: url(../images/hero.jpg);
     background-size: cover;
@@ -94,6 +96,7 @@
 
 h1 {
     font-family: 'Yeseva One', cursive;
+    font-weight: normal;
     color: white;
     font-size: 40px;
     text-transform: uppercase;
@@ -155,6 +158,8 @@ h1 {
     background: #E3B873;
 }
 
+/* section2 */
+
 .picture-two {
     width: 100%;
     height: 1072px;
@@ -191,13 +196,14 @@ h1 {
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 1);
     margin-bottom: 53px;
+    border-bottom: 1px solid transparent;
 }
 
 .menu2 a:hover {
     color: #E3B873;
-    border-bottom: 1px solid #E3B873;
+    border-color: #E3B873;
 }
 
 .menu-left {
@@ -220,6 +226,7 @@ h1 {
 
 h2 {
     font-family: 'Yeseva One', cursive;
+    font-weight: normal;
     text-transform: uppercase;
     color: #E3B873;
     font-size: 27px;
@@ -340,8 +347,6 @@ h2 {
 
 .online_control {
     background: white;
-    width: 1440px;
-    height: 1074px;
 }
 
 .collomn {
@@ -356,6 +361,7 @@ h2 {
 }
 
 .hero3 {
+    margin-top: 31px;
     margin-left: 311px;
     margin-right: 311px;
     position: relative;
@@ -405,24 +411,14 @@ h2 {
     position: relative;
     flex-wrap: wrap;
 }
-/* 
-.form-menu, 
-.checkbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 .form-label {
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
 }
 
 .form_input {
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 14px;
     line-height: 23px;
     color: black;
@@ -457,16 +453,17 @@ h2 {
     cursor: pointer;
     display: flex;
     margin-top: 34px;
+    margin-bottom: 148px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 /* section 4 */
 
 
 .types {
-    height: 1680px;
     background: white;
 }
 
@@ -501,23 +498,20 @@ h3 {
 
 .repair {
     display: flex;
-    justify-content: space-between;
-    /* margin-right: 30px; */
+    justify-content: space-around;
 
 }
 
-.decoration, .decoration2, .decoration3 {
+.decoration {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 392px;
     flex-wrap: wrap;
-    margin-right: 30px;
 }
-/* !!!!!!! last-child */
 
-.redecorating, .overhaul, .designer {
+.redecorating {
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     font-family: 'Yeseva One', cursive;
@@ -549,7 +543,83 @@ h3 {
     margin: 13px 29px 49px 34px;
 }
 
-.rectangle900, .rectangle1800, .rectangle4000 {
+.rectangle900 {
+    text-transform: uppercase;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 228px;
+    height: 54px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: -26px;
+    margin-left: 31px;
+}
+
+/* Parts2 */
+
+.decoration2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 392px;
+    flex-wrap: wrap;
+}
+
+.overhaul {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    width: 330px;
+    height: 286px;
+    margin-top: -128px;
+    margin-left: 31px;
+}
+
+.rectangle1800 {
+    text-transform: uppercase;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 228px;
+    height: 54px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: -26px;
+    margin-left: 31px;
+}
+
+/* Parts3 */
+
+.decoration3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 392px;
+    flex-wrap: wrap;
+}
+
+.designer {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    width: 330px;
+    height: 286px;
+    margin-top: -128px;
+    margin-left: 31px;
+}
+
+.rectangle4000 {
     text-transform: uppercase;
     background: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
@@ -576,5 +646,201 @@ h3 {
     padding: 17px;
 }
 
+/* Parts4 */
+
+.partsfour {
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_box {
+
+}
+
+.fon {
+    background: url(images/fon.png);
+    background-color:rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    width: 703px;
+    height: 645px;
+    position: absolute;
+}
+
+.form_li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+    position: relative;
+    list-style: none;
+} 
+
+.form_fon {
+    margin: 114px 309px 114px 308px;
+}
+
+.form_fon::before {
+    margin: 114px 309px 114px 308px;
+}
+
+.form_black {
+    position: relative;
+    background-color: black;
+    width: 506px;
+    height: 509px;
+    color:white;
+}
+
+.container_black {
+    margin: 28px 48px 27px 48px;
+}
 
 
+.paragraff {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.form_two {
+
+}
+
+.form_input_two {
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    outline: none;
+    background-color: black;
+}
+
+.form-label_two {
+    line-height: 33px;
+    color: white;
+}
+
+.forma_discont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.punkt_two {
+}
+
+.discont {
+    padding: 38px 33px 0;
+    display: flex;
+}
+
+.pig {
+    margin-right: 25px;
+}
+
+.help {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.realize {
+    background-image: url(../images/room.jpg);
+    background-size: cover;
+    height: 864px;
+    position: relative;
+    margin-top: 242px;
+}
+
+.realize::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);  
+}
+
+.realize_body {
+    display: flex;
+}
+
+.american {
+    margin-left: 99px;
+}
+
+.american_body {
+    font-family: 'Yeseva One', cursive;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    display: flex;
+    margin-top: 147px;
+    margin-bottom: 47px;
+    box-sizing: border-box;
+    margin-right: 180px;
+    width: 411px;
+    height: 66px;
+}
+
+.spisok li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    list-style: none;
+    border-top: none;
+}
+
+.spisok li:hover {
+    color: #E3B873;
+    border-color: #E3B873;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.images_left {
+    display: flex;
+    z-index: 1;
+}
+
+.colo1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+.colo2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -113px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+.image5 {
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.image7 {
+    margin-top: -113px;
+    margin-bottom: 40px;
+}
