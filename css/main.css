@@ -14,10 +14,15 @@
     align-items: center;
 }
 
+.turnkey {
+    display: flex;
+    justify-content: cspace-between;
+    align-items: center;
+}
+
 .logo {
     color: #E3B873;
     margin-left: 92px;
-    margin-right: 95px;
     flex-shrink: 0;
 }
 
@@ -178,18 +183,22 @@ h1 {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
     list-style: none;
     width: 100%;
+    margin-bottom: 52px;
+
 }
 
-.menu2 a {
+.menu22 a {
     font-family: 'Yeseva One', cursive;
     text-decoration: none;
     list-style: none;
@@ -343,10 +352,20 @@ h2 {
     margin-top: 81px;
 }
 
-/* free section */
+/* section 3 */
 
 .online_control {
     background: white;
+}
+
+.online {
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    color: white;
+    margin-top: -300px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .collomn {
@@ -355,10 +374,23 @@ h2 {
 }
 
 .cameraall {
-    margin-left: 623px;
-    margin-right: 620px;
-    margin-top: -300px;
+    margin-left: 705px;
+    margin-right: 705px;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.cameraall::before, .cameraall::after {
+    content: "solid";
+    color: #E3B873;
+    width: 32px;
+    height: 1.5px;
+
+}
+
 
 .hero3 {
     margin-top: 31px;
@@ -807,6 +839,7 @@ align-items: center;
 
 .realize_body {
     display: flex;
+    position: relative;
 }
 
 .american {
