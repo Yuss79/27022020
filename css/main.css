@@ -798,6 +798,7 @@ align-items: center;
 }
 
 .punkt_two {
+    
 }
 
 .discont {
@@ -929,6 +930,10 @@ align-items: center;
     margin-bottom: 28px;
 }
 
+.friends::before {
+
+}
+
 .customers {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
@@ -937,11 +942,71 @@ align-items: center;
     color: #363636
 }
 
+/* Section 5 Parts2 */
+
 .clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients_one, .clients_two, .clients_three {
+    width: 376px;
+    height: 428px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
 
 }
 
-.clients_one {
-
+.clients_photo_one, .clients_photo_two, .clients_photo_three {
+    margin: 24px 23px 22px 20px;
 }
 
+h4 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+}
+
+.text_one, .text_two, .text_three {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    margin: 39px 32px 90px 20px;
+    text-transform: lowercase;
+}
+
+.groupOne, .groupTwo, .groupThree {
+    display: flex;
+}
+
+.fedorova, .afanasyev, .kiriev {
+    margin-top: 41px;
+}
+
+.but40, .but90, .but56 {
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    border: 0.75px solid #FFFFFF;
+    font-family: 'Yeseva One', cursive;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.clients_two {
+    margin: 39px 54px;
+}
+
+.group {
+    background: #333333;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    opacity: 0.1;
+}
+
+
+
+/* Section6 */
