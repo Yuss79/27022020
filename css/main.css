@@ -24,7 +24,7 @@
 .logo {
     color: #E3B873;
     flex-shrink: 0;
-    margin-right: 10px;
+    margin-right: 95px;
 }
 
 .main-menu {
@@ -800,7 +800,7 @@ align-items: center;
 }
 
 .punkt_two {
-    
+    margin-right: 20px;
 }
 
 .discont {
@@ -1036,6 +1036,7 @@ h4 {
     width: 883px;
     height: 445;
     background-color: black;
+    margin-top: 1100px;
     
 
 }
